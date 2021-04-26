@@ -33,11 +33,15 @@ function App() {
     })
   };
 
+  const getTime = () => {
+    return timer < 10 ? `00:0${timer}` : `00:${timer}`;
+  }
+
   return (
     <div className="App">
       <h1>Barcode</h1>
       {barcodeValue ? <Barcode value={barcodeValue} /> : <span>Fetching Barcode</span>}
-      <h2>00:{timer < 10 ? `0${timer}` : timer}</h2>
+      <h2>{getTime()}</h2>
       {!timer && <button onClick={() => fetchBarcodeValue()}>Fetch Barcode</button>}
     </div>
   );
