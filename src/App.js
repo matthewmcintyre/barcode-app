@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <h1>Barcode</h1>
       {barcodeValue ? <Barcode value={barcodeValue} /> : <span>Fetching Barcode</span>}
-      <h1>00:{timer < 10 ? `0${timer}` : timer}</h1>
+      <h2>00:{timer < 10 ? `0${timer}` : timer}</h2>
       {!timer && <button onClick={() => fetchBarcodeValue()}>Fetch Barcode</button>}
     </div>
   );
