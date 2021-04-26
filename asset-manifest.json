@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/barcode-app/static/css/main.f8eecbef.chunk.css",
-    "main.js": "/barcode-app/static/js/main.cb11132b.chunk.js",
-    "main.js.map": "/barcode-app/static/js/main.cb11132b.chunk.js.map",
+    "main.js": "/barcode-app/static/js/main.45a5baea.chunk.js",
+    "main.js.map": "/barcode-app/static/js/main.45a5baea.chunk.js.map",
     "runtime-main.js": "/barcode-app/static/js/runtime-main.9d13504f.js",
     "runtime-main.js.map": "/barcode-app/static/js/runtime-main.9d13504f.js.map",
     "static/js/2.0c2673aa.chunk.js": "/barcode-app/static/js/2.0c2673aa.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9d13504f.js",
     "static/js/2.0c2673aa.chunk.js",
     "static/css/main.f8eecbef.chunk.css",
-    "static/js/main.cb11132b.chunk.js"
+    "static/js/main.45a5baea.chunk.js"
   ]
 }
